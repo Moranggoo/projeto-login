@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@media only screen and (min-width: 768px) {
+  article {
+    flex-direction: row;
+  }
+  img {
+    height: 320px;
+    border-radius: 10px 0px 0px 10px;
+  }
+  aside {
+    border-radius: 0px 10px 10px 0px;
+    width: 500px;
+  }
+  input {
+    width: 460px;
+  }
+  .button {
+    width: 500px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  article {
+    flex-direction: row-reverse;
+  }
+  img {
+    width: 450px;
+    height: 320px;
+    border-radius: 0px 10px 10px 0px;
+  }
+  aside {
+    border-radius: 10px 0px 0px 10px;
+    width: 700px;
+  }
+  input {
+    width: 660px;
+  }
+  .button {
+    width: 700px;
+  }
+}

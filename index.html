@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel="stylesheet" href="estilos/style.css" media="all">
+  <link rel="stylesheet" href="estilos/mediaqueries.css">
+</head>
+<body>
+    <main>
+      <section>
+        <article>
+          <img src="imagens/pexels-enginakyurt-1493226 (1).jpg" alt="Imagem de estilização">
+          <aside>
+            <h1>Login</h1>
+            <p>Bem-vindo(a) de volta, para continuar insira suas informações abaixo :) </p>
+            <form action="login.php" method="post">
+              <div class="decoration">
+                <span class="material-symbols-outlined">Person</span>
+                <input type="email" name="email" id="email" required placeholder="Seu e-mail">
+              </div>
+              <div class="decoration">
+                <span class="material-symbols-outlined">Key</span>
+                <input type="password" name="senha" id="senha" required placeholder="Sua senha" minlength="8" maxlength="10"> 
+              </div>
+              <div>
+                <input type="submit" value="Enviar" class="button" id="submit">
+                <input type="button" value="Esqueci a senha ✉️" class="button" id="esqueci">
+              </div>
+            </form>
+          </aside>
+        </article>
+      </section>
+    </main>
+</body>
+</html>
