@@ -7,8 +7,10 @@
   
 }
 
-body {
-  background-color: rgb(60, 63, 61);
+html, body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(77, 77, 77);
 }
 main {
   position: absolute; 
@@ -16,6 +18,7 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  
 }
 article {
   display: flex;
@@ -28,6 +31,8 @@ aside {
   width: 260px;
   padding: 10px;
   border-radius: 0px 0px 10px 10px;
+  transition: width .3s, height .3s;
+  transition-timing-function: ease;
 }
 aside h1 {
   font-size: 1.5em;
@@ -53,6 +58,8 @@ img {
   border-radius: 10px 10px 0px 0px;
   width: 280px;
   height: 200px;
+  transition: width .3s, height .3s;
+  transition-timing-function: ease;
 }
 input {
   vertical-align: -2px;
